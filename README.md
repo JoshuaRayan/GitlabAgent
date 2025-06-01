@@ -6,6 +6,7 @@ GEMENI_API_KEY = your_api_key
 
 **and within the main.py file change line 20 to configure .env**
 api_key = st.secrets["GOOGLE_API_KEY"]
+
 TO
 api_key= os.getenv("GOOGLE_API_KEY")
 
